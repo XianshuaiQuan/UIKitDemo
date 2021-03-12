@@ -16,6 +16,7 @@
 		3FA154CF25F8E129003B2AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA154CE25F8E129003B2AFF /* main.m */; };
 		3FA154D925F8E12A003B2AFF /* MMTUIKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA154D825F8E12A003B2AFF /* MMTUIKitDemoTests.m */; };
 		3FA154E425F8E12A003B2AFF /* MMTUIKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA154E325F8E12A003B2AFF /* MMTUIKitDemoUITests.m */; };
+		3FA1550425FA2B68003B2AFF /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1550325FA2B68003B2AFF /* PickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3FA154DF25F8E12A003B2AFF /* MMTUIKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMTUIKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA154E325F8E12A003B2AFF /* MMTUIKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTUIKitDemoUITests.m; sourceTree = "<group>"; };
 		3FA154E525F8E12A003B2AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA1550225FA2B68003B2AFF /* PickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		3FA1550325FA2B68003B2AFF /* PickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 			children = (
 				3FA154C225F8E128003B2AFF /* ViewController.h */,
 				3FA154C325F8E128003B2AFF /* ViewController.m */,
+				3FA1550225FA2B68003B2AFF /* PickerViewController.h */,
+				3FA1550325FA2B68003B2AFF /* PickerViewController.m */,
 				3FA154F525F8E1AD003B2AFF /* View */,
 				3FA154F725F8E1CD003B2AFF /* Model */,
 				3FA154F825F8E1D7003B2AFF /* ViewModel */,
@@ -300,6 +305,7 @@
 			files = (
 				3FA154C425F8E128003B2AFF /* ViewController.m in Sources */,
 				3FA154BE25F8E128003B2AFF /* AppDelegate.m in Sources */,
+				3FA1550425FA2B68003B2AFF /* PickerViewController.m in Sources */,
 				3FA154CF25F8E129003B2AFF /* main.m in Sources */,
 				3FA154C125F8E128003B2AFF /* SceneDelegate.m in Sources */,
 			);

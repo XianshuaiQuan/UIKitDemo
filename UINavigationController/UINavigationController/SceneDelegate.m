@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.m
-//  MMTUIKitDemo
+//  UINavigationController
 //
-//  Created by 全先帅 on 2021/3/10.
+//  Created by 全先帅 on 2021/3/11.
 //
 
 #import "SceneDelegate.h"
@@ -16,15 +16,15 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    UIWindowScene *winScene = (UIWindowScene *)scene;
-    self.window = [[UIWindow alloc] initWithWindowScene:winScene];
-    self.window.backgroundColor = [UIColor whiteColor];
-    ViewController *rootViewController = [[ViewController alloc] init];
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:rootViewController];
-    self.window.rootViewController = navi;
-    [self.window makeKeyAndVisible];
+    
+    UIWindowScene *windowScene = (UIWindowScene *)scene;
+        self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+        self.window.backgroundColor = [UIColor blackColor];
+        ViewController *VC = [[ViewController alloc]init];
+        UINavigationController *NVC = [[UINavigationController alloc]initWithRootViewController:VC];
+        [self.window setRootViewController:NVC];
+        [self.window makeKeyAndVisible];
 }
-
 
 - (void)sceneDidDisconnect:(UIScene *)scene {
     // Called as the scene is being released by the system.
