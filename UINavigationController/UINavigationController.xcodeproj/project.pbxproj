@@ -104,17 +104,9 @@
 		3FA1551625FA4CA2003B2AFF /* UINavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				3FA1551725FA4CA2003B2AFF /* AppDelegate.h */,
-				3FA1551825FA4CA2003B2AFF /* AppDelegate.m */,
-				3FA1551A25FA4CA2003B2AFF /* SceneDelegate.h */,
-				3FA1551B25FA4CA2003B2AFF /* SceneDelegate.m */,
 				3FA1551D25FA4CA2003B2AFF /* ViewController.h */,
 				3FA1551E25FA4CA2003B2AFF /* ViewController.m */,
-				3FA1552025FA4CA2003B2AFF /* Main.storyboard */,
-				3FA1552325FA4CA4003B2AFF /* Assets.xcassets */,
-				3FA1552525FA4CA4003B2AFF /* LaunchScreen.storyboard */,
-				3FA1552825FA4CA4003B2AFF /* Info.plist */,
-				3FA1552925FA4CA4003B2AFF /* main.m */,
+				3FA79B5B25FB96A800B3DB1D /* Others */,
 			);
 			path = UINavigationController;
 			sourceTree = "<group>";
@@ -135,6 +127,22 @@
 				3FA1554025FA4CA4003B2AFF /* Info.plist */,
 			);
 			path = UINavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+		3FA79B5B25FB96A800B3DB1D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				3FA1551725FA4CA2003B2AFF /* AppDelegate.h */,
+				3FA1551825FA4CA2003B2AFF /* AppDelegate.m */,
+				3FA1551A25FA4CA2003B2AFF /* SceneDelegate.h */,
+				3FA1551B25FA4CA2003B2AFF /* SceneDelegate.m */,
+				3FA1552025FA4CA2003B2AFF /* Main.storyboard */,
+				3FA1552325FA4CA4003B2AFF /* Assets.xcassets */,
+				3FA1552525FA4CA4003B2AFF /* LaunchScreen.storyboard */,
+				3FA1552825FA4CA4003B2AFF /* Info.plist */,
+				3FA1552925FA4CA4003B2AFF /* main.m */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

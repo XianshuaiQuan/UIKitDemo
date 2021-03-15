@@ -16,14 +16,12 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    
-    UIWindowScene *windowScene = (UIWindowScene *)scene;
-        self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
-        self.window.backgroundColor = [UIColor blackColor];
-        ViewController *VC = [[ViewController alloc]init];
-        UINavigationController *NVC = [[UINavigationController alloc]initWithRootViewController:VC];
-        [self.window setRootViewController:NVC];
-        [self.window makeKeyAndVisible];
+    self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *rootViewController = [[ViewController alloc]init];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:rootViewController];
+    [self.window setRootViewController:navigationController];
+    [self.window makeKeyAndVisible];
 }
 
 - (void)sceneDidDisconnect:(UIScene *)scene {
